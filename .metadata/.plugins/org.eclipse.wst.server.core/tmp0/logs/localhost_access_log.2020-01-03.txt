@@ -1,0 +1,6 @@
+127.0.0.1 - - [03/Jan/2020:15:00:34 +0900] "GET / HTTP/1.1" 404 750
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:15:00:36 +0900] "GET /jspbook/ch05_Action/Main.jsp HTTP/1.1" 200 360
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:15:00:36 +0900] "GET /favicon.ico HTTP/1.1" 404 761
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:15:01:46 +0900] "GET /jspbook/ch05_Action/footer.jsp HTTP/1.1" 200 136
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:15:15:11 +0900] "GET /jspbook/ch05_Action/Main.jsp HTTP/1.1" 200 183
+0:0:0:0:0:0:0:1 - - [03/Jan/2020:15:15:43 +0900] "GET /jspbook/ch05_Action/forward.jsp HTTP/1.1" 200 170

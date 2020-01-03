@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Test Form</title>
+<script>
+document.cookie="test=OK."
+</script>
+<style>
+table{
+	border-spacing : 1;
+}
+td, th{
+	padding : 10px;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<h2>Request Test Form</h2>
+<hr>
+<form name="form1" method="post" action="request_result.jsp">
+	<table border=1>
+		<tr>
+		<td>이름</td>
+		<td><input type=text size=10 name=username></td>
+		<tr>
+		<td>직업</td>
+		<td>
+		<select name="job">
+			<option selected>무직</option>
+			<option>회사원</option>
+			<option>학생</option>
+		</select>
+		</td>
+		<tr>
+		<td>관심분야</td>
+		<td>
+			<input type="checkbox" name="favorite" value="soccer">Soccer
+			<input type="checkbox" name="favorite" value="baseball">Baseball
+			<input type="checkbox" name="favorite" value="Tennis">Tennis
+		</td>
+		<tr><td colspan=2 align="center"><input type="submit" value="확인">
+		<input type="reset" value="취소"></td></tr>
+	</table>
+</form>
+</div>
+</body>
+</html>

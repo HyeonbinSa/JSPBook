@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%!
+	int sum = 0;
+	String name = "ben";
+	String str = "test";
+	public int sum(){
+		for(int i = 1; i<=100 ; i++){
+			sum += i;
+		}
+		return sum;
+	}
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>선언과 표현식</title>
+</head>
+<body>
+<h1>선언과 표현식 테스트</h1>
+<hr>
+<div align="center">
+표현식 결과값 : <%= sum() %> 
+<br>
+멤번 변수 출력 name = <%= name %>
+<br><%= "문자열 테스트 입니다. str = " + str %>
+</div>
+</body>
+</html>

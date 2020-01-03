@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Request Test Result</title>
+<style>
+table{
+	border-spacing : 1;
+}
+td, th{
+	padding : 10px;
+}
+</style>
+</head>
+
+<body>
+<div align="center">
+<h2>Request Test Result -1</h2>
+<hr>
+<table border=1>
+<tr>
+<td>이름</td>
+<td><%= request.getParameter("username") %></td>
+<tr>
+<td>직업</td>
+<td><%= request.getParameter("job") %></td>
+<tr>
+<td>관심분야</td>
+<td><% String favorites[] = request.getParameterValues("favorite");
+for(String favorite : favorites){
+	out.println(favorite + "<br>");
+}%></td>
+<td></td>
+</table>
+</div>
+</body>
+</html>
