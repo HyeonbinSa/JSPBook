@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="login" class="jspbook.ch07.LoginBean" scope="page"/>
+<jsp:setProperty name="login" property="*"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+</head>
+<body>
+<div align="center">
+<h2>Login Example</h2>
+<hr>
+<%
+	if(!login.checkUser()){
+		out.println("Login Failed!!");
+	}
+	else{
+		out.println("Login Complete!!");
+	}
+%>
+<hr>
+User ID : <jsp:getProperty name="login" property="userid"/><br>
+User PW : <jsp:getProperty name="login" property="passwd"/>
+</div>
+</body>
+</html>
