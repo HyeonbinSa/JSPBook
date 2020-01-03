@@ -1,0 +1,7 @@
+package jspbook.address;
+
+import java.util.*;
+
+public class AddrManager {
+	Array<AddrBean> addrList = new ArrayList<AddrBean>();
+}

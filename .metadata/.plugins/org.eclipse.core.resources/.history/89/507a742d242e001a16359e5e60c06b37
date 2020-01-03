@@ -1,0 +1,5 @@
+package jspbook.address;
+
+public class AddrBean {
+
+}

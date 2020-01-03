@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Address Book</title>
+</head>
+<body>
+<div align="center">
+<h2>Add Address</h2>
+<hr>
+<form name="addAddress" action="addr_add.jsp">
+<table border="1">
+<tr>
+<td>Name</td>
+<td><input type="text" name="name"></td>
+</tr>
+<tr>
+<td>Phone</td>
+<td><input type="text" name="phone"></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td align="center">
+<select name="gender">
+<option selected>Male</option>
+<option>Female</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Add">
+<input type="reset" value="reset"></td>
+</tr>
+</table>
+</form>
+</div>
+
+</body>
+</html>
