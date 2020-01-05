@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" import="java.sql.*"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JDBC Test</title>
+</head>
+<body>
+<div align="center">
+<h2>Event Registration</h2>
+<hr>
+<form method="post">
+등록 이름 : <input type="text" name="username">
+주소 : <input type="text" name="email" size="20">
+<input type="submit" value="submit">
+</form>
+<hr>
+</div>
+# 등록 목록<p>
+</body>
+</html>

@@ -11,3 +11,5 @@ INDEX VERSION 1.131
 /jspbook/src
 /Users/sahyeonbin/Desktop/JavaBasic/Book_JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2689662496.index
 /jspbook/src
+/Users/sahyeonbin/Desktop/JavaBasic/Book_JSP/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2953628124.index
+/jspbook/src
